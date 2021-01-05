@@ -12,7 +12,7 @@
   <url>http://www.dragome.com</url>
 
   <properties>
-    <dragome.version>0.96-beta4</dragome.version>
+    <dragome.version>0.96_1-ADVA</dragome.version>
     <skip.gpg>true</skip.gpg>
 	<maven.javadoc.skip>true</maven.javadoc.skip>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,12 +81,12 @@
     <dependency>
       <groupId>com.dragome</groupId>
       <artifactId>dragome-guia</artifactId>
-      <version>0.96-beta4</version>
+      <version>0.96_1-ADVA</version>
     </dependency>
     <dependency>
       <groupId>com.dragome</groupId>
       <artifactId>dragome-web</artifactId>
-      <version>0.96-beta4</version>
+      <version>0.96_1-ADVA</version>
     </dependency>
   </dependencies>
 

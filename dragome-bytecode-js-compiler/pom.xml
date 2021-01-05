@@ -9,7 +9,7 @@
   <url>http://www.dragome.com</url>
 
   <properties>
-    <dragome.version>0.96-beta4</dragome.version>
+    <dragome.version>0.96_1-ADVA</dragome.version>
     <skip.gpg>true</skip.gpg>
 	<maven.javadoc.skip>true</maven.javadoc.skip>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
