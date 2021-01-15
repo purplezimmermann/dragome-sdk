@@ -47,6 +47,7 @@ import org.apache.commons.io.output.StringBuilderWriter;
 
 import com.dragome.commons.compiler.classpath.ClasspathFile;
 import com.dragome.compiler.DragomeJsCompiler;
+import com.dragome.compiler.NullClassUnit;
 import com.dragome.compiler.Project;
 import com.dragome.compiler.generators.DragomeJavaScriptGenerator;
 import com.dragome.compiler.type.Signature;
@@ -237,7 +238,7 @@ public class ClassUnit extends Unit
 
 	public void setSuperUnit(ClassUnit theSuperUnit)
 	{
-		if (superUnit != null)
+		if (superUnit != null && !(superUnit instanceof NullClassUnit))
 		{
 			superUnit.removeSubUnit(this);
 		}
